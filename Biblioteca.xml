@@ -1,0 +1,38 @@
+<Catalogos>
+  <Categoria>
+    <Categoria nombre="Educacion"/>
+  </Categoria>
+  <Autor>
+    <Autor nombre="Juan Pablo Vargas"/>
+    <Autor nombre="Pedro Mendez Mendez"/>
+  </Autor>
+  <Editorial>
+    <Editorial nombre="La revista inteligente SA"/>
+    <Editorial nombre="Editorial ITCR"/>
+  </Editorial>
+  <Encargado>
+    <Encargado nombre="Jose elias">
+  </Encargado>
+  <Libro>
+    <Libro titulo="Introduccion al Calculo" annoPublicacion="2009" issn="4325" numSistema="12" idAutorFK="1" idEditorialFK="1" idCategoriaFK="1"/>
+    <Libro titulo="Ciencias avanzadas Vol II" annoPublicacion="1999" issn="125" numSistema="13" idAutorFK="2" idEditorialFK="2" idCategoriaFK="1"/>
+    <Libro titulo="Las derivadas de planck" annoPublicacion="2020" issn="9125" numSistema="14" idAutorFK="1" idEditorialFK="1" idCategoriaFK="1"/>
+  </Libro>
+  <Sancion>
+    <Sancion nombre="Entregar tarde"/>
+    <Sancion nombre="Robar libro "/>
+    <Sancion nombre="Dañar libro"/>
+  </Sancion>
+  <PrestamoXEstudiante>
+    <PrestamoXEstudiante fecha="11-5-2022" periodo="10" idPersona="1" idLibroFK="1" idEncargadoFK="1"/>
+    <PrestamoXEstudiante fecha="12-5-2022" periodo="2" idPersona="2" idLibroFK="1" idEncargadoFK="1"/>
+    <PrestamoXEstudiante fecha="13-5-2022" periodo="1" idPersona="3" idLibroFK="2" idEncargadoFK="1"/>
+  </PrestamoXEstudiante>
+  <EntregaXEstudiante>
+    <EntregaXEstudiante fecha="17-5-2022" idPrestamoFK="1" idEncargadoFK="1"/>
+    <EntregaXEstudiante fecha="16-5-2022" idPrestamoFK="2" idEncargadoFK="1"/>
+  </EntregaXEstudiante>
+  <SancionXPrestamo>
+    <SancionXPrestamo idPrestamoFK="2" idSancionFK="1"/>
+  </SancionXPrestamo>
+</Catalogos>

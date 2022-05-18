@@ -1,0 +1,27 @@
+<Catalogos>
+	<Persona>
+		<Persona nombre="Juan1" apellido1="Savala" apellido2="Escors" cedula="1234555" direccion_FK="1"/>
+		<Persona nombre="Juan2" apellido1="Savala" apellido2="Escors" cedula="123" direccion_FK="1"/>
+		<Persona nombre="Juan3" apellido1="Savala" apellido2="Escors" cedula="14555" direccion_FK="1"/>
+		<Persona nombre="Juan4" apellido1="Savala" apellido2="Escors" cedula="3555" direccion_FK="1"/>
+		<Persona nombre="Juan5" apellido1="Savala" apellido2="Escors" cedula="1255" direccion_FK="1"/>
+	</Persona>
+	<PersonalCartago>
+		<PersonalCartago nombre="juan1@gmail.com" contrasenna="123" estado="1" PersonaFK="1"/>
+		<PersonalCartago nombre="juan2@gmail.com" contrasenna="1234" estado="0" PersonaFK="2"/>
+		<PersonalCartago nombre="juan3@gmail.com" contrasenna="12345" estado="1" PersonaFK="3"/>
+	</PersonalCartago>
+	<Provincia>
+		<Provincia nombre="Cartago"/>
+	</Provincia>
+	<Distrito>
+		<Distrito nombre="Ojo de agua"/>
+	</Distrito>
+	<Canton>
+		<Canton nombre="Llano grande"/>
+	</Canton>
+	<Direccion>
+		<Direccion direccion_exacta="Al norte de la carretera 1" provinciaFK="1" canton="1" distrito="1"/>
+	</Direccion>
+
+</Catalogos>

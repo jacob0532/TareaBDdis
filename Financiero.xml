@@ -1,0 +1,13 @@
+<Catalogos>
+  <factura>
+    <factura id="2" nombre="Juan2" montoPagado="15000" totalAPagar="" diferencia="" fecha="" iva=""/>
+  </factura>
+  <multa>
+    <multa id="1" monto="152900" idSancion="1"/>
+    <multa id="2" monto="162000" idSancion="2"/>
+    <multa id="3" monto="222000" idSancion="3"/>
+  </multa>
+  <multaXPersona>
+    <multaXPersona id="1" idPersona="2" idMultaFK="1" fecha="16-5-2022" idFactura="1"/>
+  </multaXPersona>
+</Catalogos>
